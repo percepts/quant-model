@@ -20,7 +20,8 @@ shinyUI(fluidPage(
                   min = 1,
                   max = 50,
                   value = 30),
-    textInput("symb", "Security Instrument",  "GOOG")
+    textInput("symb", "Security Instrument",  "GOOG"),
+    submitButton("go","Test")
     ),
     # Show a plot of the generated distribution
     mainPanel(
